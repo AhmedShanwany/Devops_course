@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-17T14:10:30 EET" name="Testing Google Apps" finished-at="2023-08-17T14:10:44 EET" duration-ms="14267">
+    <groups>
+    </groups>
+    <test started-at="2023-08-17T14:10:30 EET" name="Automation" finished-at="2023-08-17T14:10:34 EET" duration-ms="4501">
+      <class name="GoogleHomeTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:GoogleHomeTest@4e08711f]" started-at="2023-08-17T14:10:30 EET" name="setupDriver" finished-at="2023-08-17T14:10:32 EET" duration-ms="2000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="searchTest()[pri:0, instance:GoogleHomeTest@4e08711f]" started-at="2023-08-17T14:10:32 EET" name="searchTest" finished-at="2023-08-17T14:10:34 EET" duration-ms="2312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:GoogleHomeTest@4e08711f]" started-at="2023-08-17T14:10:34 EET" name="quitDriver" finished-at="2023-08-17T14:10:34 EET" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- GoogleHomeTest -->
+    </test> <!-- Automation -->
+    <test started-at="2023-08-17T14:10:30 EET" name="Automation3" finished-at="2023-08-17T14:10:39 EET" duration-ms="8953">
+      <class name="GoogleHomeTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:GoogleHomeTest@385e9564]" started-at="2023-08-17T14:10:30 EET" name="setupDriver" finished-at="2023-08-17T14:10:35 EET" duration-ms="5219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="searchTest()[pri:0, instance:GoogleHomeTest@385e9564]" started-at="2023-08-17T14:10:35 EET" name="searchTest" finished-at="2023-08-17T14:10:37 EET" duration-ms="2256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:GoogleHomeTest@385e9564]" started-at="2023-08-17T14:10:37 EET" name="quitDriver" finished-at="2023-08-17T14:10:39 EET" duration-ms="1462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- GoogleHomeTest -->
+    </test> <!-- Automation3 -->
+    <test started-at="2023-08-17T14:10:30 EET" name="Automation2" finished-at="2023-08-17T14:10:43 EET" duration-ms="13213">
+      <class name="GoogleResultPageTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:GoogleResultPageTest@399c4be1]" started-at="2023-08-17T14:10:30 EET" name="setupDriver" finished-at="2023-08-17T14:10:32 EET" duration-ms="2093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="searchPageTest(java.lang.String,int)[pri:0, instance:GoogleResultPageTest@399c4be1]" started-at="2023-08-17T14:10:32 EET" name="searchPageTest" data-provider="getData" finished-at="2023-08-17T14:10:38 EET" duration-ms="5696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Docker]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method signature="searchPageTest(java.lang.String,int)[pri:0, instance:GoogleResultPageTest@399c4be1]" started-at="2023-08-17T14:10:38 EET" name="searchPageTest" data-provider="getData" finished-at="2023-08-17T14:10:43 EET" duration-ms="5256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium,]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:GoogleResultPageTest@399c4be1]" started-at="2023-08-17T14:10:43 EET" name="quitDriver" finished-at="2023-08-17T14:10:43 EET" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- GoogleResultPageTest -->
+    </test> <!-- Automation2 -->
+    <test started-at="2023-08-17T14:10:30 EET" name="Automation4" finished-at="2023-08-17T14:10:44 EET" duration-ms="14267">
+      <class name="GoogleResultPageTest">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:GoogleResultPageTest@f79e]" started-at="2023-08-17T14:10:30 EET" name="setupDriver" finished-at="2023-08-17T14:10:35 EET" duration-ms="5167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="searchPageTest(java.lang.String,int)[pri:0, instance:GoogleResultPageTest@f79e]" started-at="2023-08-17T14:10:35 EET" name="searchPageTest" data-provider="getData" finished-at="2023-08-17T14:10:41 EET" duration-ms="5928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Docker]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method signature="searchPageTest(java.lang.String,int)[pri:0, instance:GoogleResultPageTest@f79e]" started-at="2023-08-17T14:10:41 EET" name="searchPageTest" data-provider="getData" finished-at="2023-08-17T14:10:43 EET" duration-ms="2123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium,]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:GoogleResultPageTest@f79e]" started-at="2023-08-17T14:10:43 EET" name="quitDriver" finished-at="2023-08-17T14:10:44 EET" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- GoogleResultPageTest -->
+    </test> <!-- Automation4 -->
+  </suite> <!-- Testing Google Apps -->
+</testng-results>

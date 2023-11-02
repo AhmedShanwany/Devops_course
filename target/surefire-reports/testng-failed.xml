@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Testing Google Apps]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="Automation4(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="GoogleResultPageTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="searchPageTest"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- GoogleResultPageTest -->
+    </classes>
+  </test> <!-- Automation4(failed) -->
+  <test thread-count="5" parallel="tests" name="Automation(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="GoogleHomeTest">
+        <methods>
+          <include name="searchTest"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- GoogleHomeTest -->
+    </classes>
+  </test> <!-- Automation(failed) -->
+  <test thread-count="5" parallel="tests" name="Automation2(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="GoogleResultPageTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="searchPageTest"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- GoogleResultPageTest -->
+    </classes>
+  </test> <!-- Automation2(failed) -->
+  <test thread-count="5" parallel="tests" name="Automation3(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="GoogleHomeTest">
+        <methods>
+          <include name="searchTest"/>
+          <include name="setupDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- GoogleHomeTest -->
+    </classes>
+  </test> <!-- Automation3(failed) -->
+</suite> <!-- Failed suite [Testing Google Apps] -->
